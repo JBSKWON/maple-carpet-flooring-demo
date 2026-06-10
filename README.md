@@ -16,35 +16,9 @@ outcome.
   `do_not_call`, `wrong_number`, or `voicemail`.
 - Exports the complete result and transcript as JSON.
 
-## Setup
-
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-cp .env.example .env
-```
-
-Set your key in `.env`:
-
-```text
-OPENAI_API_KEY=your-api-key
-```
-
-Run the application:
-
-```bash
-streamlit run app.py
-```
-
-Run the tests:
-
-```bash
-pytest -q
-```
-
-The app can open without a key and will show safe fallback copy, but live
-conversational decisions require `OPENAI_API_KEY`.
+## Link to the app
+You can try running the link below:
+https://jbskwon-maple-carpet-flooring-demo-app-zauw3f.streamlit.app/
 
 ## Architecture
 
